@@ -12,4 +12,4 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-The website is live on https://634c0f6daa66ac0429f79b4b--magical-pie-5ff093.netlify.app/
+The website is live on https://app.netlify.com/sites/eloquent-lolly-0d9e2d/deploys/634c18f7751fdb0bd7af0efd
