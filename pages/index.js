@@ -2,11 +2,11 @@ import Head from "next/head";
 import {
   AiFillTwitterCircle,
   AiFillLinkedin,
-  AiFillYoutube,
+  AiFillGithub,
 } from "react-icons/ai";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
-import deved from "../public/dev-ed-wave.png";
+import kiran from "../public/business-kiran.png";
 import code from "../public/code.png";
 import design from "../public/design.png";
 import consulting from "../public/consulting.png";
@@ -15,8 +15,6 @@ import web1 from "../public/web1.png";
 import web2 from "../public/web2.png";
 import web3 from "../public/web3.png";
 import web4 from "../public/web4.png";
-import web5 from "../public/web5.png";
-import web6 from "../public/web6.png";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -31,7 +29,7 @@ export default function Home() {
       <main className=" bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40">
         <section className="min-h-screen">
           <nav className="py-10 mb-12 flex justify-between dark:text-white">
-            <h1 className="font-burtons text-xl">developedbyed</h1>
+            <h1 className="font-burtons text-xl">kiran kumar hegge</h1>
             <ul className="flex items-center">
               <li>
                 <BsFillMoonStarsFill
@@ -50,160 +48,133 @@ export default function Home() {
             </ul>
           </nav>
           <div className="text-center p-10 py-10">
+            <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden md:h-96 md:w-96">
+              <Image src={kiran} layout="fill" objectFit="cover" />
+            </div>
             <h2 className="text-5xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl">
-              Dimitri Marco
+              Hi! I'm Kiran
             </h2>
             <h3 className="text-2xl py-2 dark:text-white md:text-3xl">
-              Developer and designer.
+              Full Stack Developer.
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-              Freelancer providing services for programming and design content
-              needs. Join me down below and let's get cracking!
+              I am a Full Stack Developer having specialization in back-end and front-end development. I have front-end skills in HTML, CSS, React.js, 
+              Javascript, Tailwind CSS and back-end skills in Node.js, MongoDB, Express.js.
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
-              <AiFillTwitterCircle />
-              <AiFillLinkedin />
-              <AiFillYoutube />
-            </div>
-            <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-              <Image src={deved} layout="fill" objectFit="cover" />
+              <a href="https://twitter.com/HeggeKiran"><AiFillTwitterCircle /></a>
+              <a href="https://www.linkedin.com/in/kiran-kumar-hegge-595568234/"><AiFillLinkedin /></a>
+              <a href="https://github.com/Kirankumarhegge"><AiFillGithub /></a>
+              
             </div>
           </div>
         </section>
         <section>
-          <div>
-            <h3 className="text-3xl py-1 dark:text-white ">Services I offer</h3>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              Since the beginning of my journey as a freelance designer and
-              developer, I've done remote work for
-              <span className="text-teal-500"> agencies </span>
-              consulted for <span className="text-teal-500">startups </span>
-              and collaborated with talanted people to create digital products
-              for both business and consumer use.
-            </p>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              I offer from a wide range of services, including brand design,
-              programming and teaching.
-            </p>
-          </div>
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
               <Image src={design} width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2  ">
-                Beautiful Designs
+                Front-End Skills
               </h3>
               <p className="py-2">
-                Creating elegant designs suited for your needs following core
-                design theory.
+                Creating elegant front-end websites for better user experience. 
               </p>
-              <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Illustrator</p>
-              <p className="text-gray-800 py-1">Figma</p>
-              <p className="text-gray-800 py-1">Indesign</p>
+              <h4 className="py-4 text-teal-600">Front-End Tools I Use</h4>
+              <p className="text-gray-800 py-1">React.js</p>
+              <p className="text-gray-800 py-1">HTML</p>
+              <p className="text-gray-800 py-1">CSS</p>
+              <p className="text-gray-800 py-1">Javascript</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <Image src={code} width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2 ">
-                Code your dream project
+                Back-End Skills
               </h3>
               <p className="py-2">
                 Do you have an idea for your next great website? Let's make it a
                 reality.
               </p>
-              <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Illustrator</p>
-              <p className="text-gray-800 py-1">Figma</p>
-              <p className="text-gray-800 py-1">Indesign</p>
+              <h4 className="py-4 text-teal-600">Back-End Tools I Use</h4>
+              <p className="text-gray-800 py-1">Node.js</p>
+              <p className="text-gray-800 py-1">MongoDB</p>
+              <p className="text-gray-800 py-1">Express.js</p>
+              <p className="text-gray-800 py-1">Javascript</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <Image src={consulting} width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2 ">Consulting</h3>
               <p className="py-2">
-                Are you interested in feedback for your current project? I can
-                give you tips and tricks to level it up.
+                Are you interested in feedback for my current project? You can
+                give your tips and tricks to level it up.
               </p>
-              <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Illustrator</p>
-              <p className="text-gray-800 py-1">Figma</p>
-              <p className="text-gray-800 py-1">Indesign</p>
+              <h4 className="py-4 text-teal-600">Additional Tools I Use</h4>
+              <p className="text-gray-800 py-1">Next.js</p>
+              <p className="text-gray-800 py-1">Bootstrap</p>
+              <p className="text-gray-800 py-1">Material UI</p>
+              <p className="text-gray-800 py-1">Chakra UI</p>
             </div>
           </div>
         </section>
         <section className="py-10">
           <div>
-            <h3 className="text-3xl py-1 dark:text-white ">Portofolio</h3>
+            <h3 className="text-3xl py-1 dark:text-white ">Projects</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              Since the beginning of my journey as a freelance designer and
-              developer, I've done remote work for
-              <span className="text-teal-500"> agencies </span>
-              consulted for <span className="text-teal-500">startups </span>
-              and collaborated with talanted people to create digital products
-              for both business and consumer use.
-            </p>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              I offer from a wide range of services, including brand design,
-              programming and teaching.
+              Since the beginning of my journey as a <span className="text-teal-500">Web
+              developer</span>, I've done few projects and worked on both
+              <span className="text-teal-500"> front-end </span>
+              and <span className="text-teal-500">baack-end</span>. You can have a glimpse
+              of the website by clicking the image.
             </p>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
-            <div className="basis-1/3 flex-1 ">
-              <Image
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={web1}
-              />
+            <div className="basis-1/3 flex-1">
+            <a href="https://kirankumarhegge.github.io/ignite/">
+                <Image
+                  className="rounded-lg object-cover"
+                  width={"100%"}
+                  height={"100%"}
+                  layout="responsive"
+                  src={web1}
+                />
+              </a>
             </div>
             <div className="basis-1/3 flex-1">
-              <Image
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={web2}
-              />
+              <a href="https://62dd6039509fb672a4dcc6d0--incandescent-faloodeh-f0a53c.netlify.app/">
+                <Image
+                  className="rounded-lg object-cover"
+                  width={"100%"}
+                  height={"100%"}
+                  layout="responsive"
+                  src={web2}
+                />
+              </a>
             </div>
             <div className="basis-1/3 flex-1">
-              <Image
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={web3}
-              />
+            <a href="https://tangerine-kringle-64e68b.netlify.app">
+                <Image
+                  className="rounded-lg object-cover"
+                  width={"100%"}
+                  height={"100%"}
+                  layout="responsive"
+                  src={web3}
+                />
+              </a>
             </div>
             <div className="basis-1/3 flex-1">
-              <Image
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={web4}
-              />
-            </div>
-            <div className="basis-1/3 flex-1">
-              <Image
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={web5}
-              />
-            </div>
-            <div className="basis-1/3 flex-1">
-              <Image
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={web6}
-              />
+              <a href="https://634b87b56fb74630e4818dfb--statuesque-dolphin-0a7e25.netlify.app/">
+                <Image
+                  className="rounded-lg object-cover"
+                  width={"100%"}
+                  height={"100%"}
+                  layout="responsive"
+                  src={web4}
+                />
+              </a>
             </div>
           </div>
+        </section>
+        <section className="pt-10 pb-2 text-center text-gray-500">
+            <p>Copyright @ 2022.</p>
         </section>
       </main>
     </div>
