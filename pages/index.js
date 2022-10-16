@@ -48,7 +48,7 @@ export default function Home() {
             </ul>
           </nav>
           <div className="text-center p-10 py-10">
-            <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden md:h-96 md:w-96">
+            <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-56 h-56 relative overflow-hidden md:h-96 md:w-96">
               <Image src={kiran} layout="fill" objectFit="cover" />
             </div>
             <h2 className="text-5xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl">
