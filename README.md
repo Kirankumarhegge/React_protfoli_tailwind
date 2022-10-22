@@ -4,12 +4,9 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+npm run dev or yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-The website is live on https://app.netlify.com/sites/eloquent-lolly-0d9e2d/deploys/634c18f7751fdb0bd7af0efd
+```
+The website is live on https://6353d3e3e2dc2603c2788e77--soft-mousse-6f6376.netlify.app/
+```
