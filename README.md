@@ -8,5 +8,5 @@ npm run dev or yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-The website is live on https://6353d3e3e2dc2603c2788e77--soft-mousse-6f6376.netlify.app/
+The website is live on https://flourishing-bunny-b0a20c.netlify.app/
 
