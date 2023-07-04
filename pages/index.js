@@ -49,7 +49,7 @@ export default function Home() {
           </nav>
           <div className="text-center p-10 py-10">
             <div className="mx-auto bg-gradient-to-b from-zinc-600 rounded-full w-56 h-56 relative overflow-hidden md:h-96 md:w-96">
-              <Image src={kiran} layout="fill" objectFit="cover" />
+              <Image src="../public/business-kiran" layout="fill" objectFit="cover" />
             </div>
             <h2 className="text-4xl mt-5 py-2 text-black font-medium dark:text-white md:text-5xl">
               Hi, I'm <span className="text-teal-500 ">Kiran</span>
