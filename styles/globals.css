@@ -21,3 +21,19 @@ a {
   font-family: "burtons";
   src: url("../public/Burtons.otf");
 }
+
+
+.typing-demo {
+  width: 11.5ch;
+  animation: typing 2.5s steps(16) infinite;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid #14B8A6;
+  font-size: 3em;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}

@@ -5,13 +5,14 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "npm run dev",
     "lint": "next lint"
   },
   "dependencies": {
     "firebase": "^9.10.0",
     "moment": "^2.29.4",
-    "next": "^12.3.1",
+    "next": "^12.3.4",
+    "nodemon": "^3.0.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-icons": "^4.4.0"
