@@ -1,4 +1,4 @@
-# Kiran Hegge - Web Developer Portfolio
+## Kiran Hegge - Web Developer Portfolio
 
 This is my personal portfolio website showcasing my web development skills and projects. The website is built using Next.js.
 
