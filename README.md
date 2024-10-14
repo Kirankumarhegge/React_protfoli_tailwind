@@ -1,12 +1,8 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Kiran Hegge - Web Developer Portfolio
 
-## Getting Started
+This is my personal portfolio website showcasing my web development skills and projects. The website is built using Next.js.
 
-First, run the development server:
+## Live Website
+You can view the live version of the website here: [https://kiranhegge-portfolio.netlify.app/](https://kiranhegge-portfolio.netlify.app/)
 
-npm run dev or yarn dev
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-The website is live on [https://flourishing-bunny-b0a20c.netlify.app/](https://kiranhegge-portfolio.netlify.app/)
 
